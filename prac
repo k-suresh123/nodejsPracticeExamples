@@ -1,0 +1,9 @@
+exp = require("express");
+app = exp();
+tok =   require("jsonwebtoken")
+payload={
+uname:'ramu'
+}
+key = '@#$%%'
+tk =tok.sign(payload,key,{expiresIn:10h})
+console.log(tk)

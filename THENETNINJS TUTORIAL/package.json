@@ -1,0 +1,15 @@
+{
+  "name": "thenetninjs-tutorial",
+  "version": "1.0.0",
+  "description": "kkkkkkkkkkkkkkkkk/*! jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license */\r !function(e,t){\"use strict\";\"object\"==typeof\r  module&&\"object\"==typeof module.exports?modul\r  e.exports=e.document?t(e,!0):function(e){if(!e.do\r  cument)throw new Error(\"jQuery requires a window wi",
+  "main": "1clearInterval.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^14.3.1"
+  }
+}

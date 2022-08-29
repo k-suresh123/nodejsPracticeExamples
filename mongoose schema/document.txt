@@ -1,0 +1,19 @@
+mongodb doesnot enforce any schema
+**// Modles
+
+models represent collections in MongoDb
+
+user Model to represent a collection of users
+Ninja Model to represent a collection of Ninjas
+
+schema define the structure of our data objects
+
+Schema{
+ name: String,
+ rank: String,
+ available: Boolean
+}
+
+Adda a layer of methods to easily save,edit,retreive and
+delete data from mongodb.
+-Allows us to create our Models and Schemas easily

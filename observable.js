@@ -1,0 +1,15 @@
+Rx = require("rxjs")
+//const { Observable } = rxjs;
+
+  const greetingLady$ = new Rx.Observable(observer => {
+    console.log('Inside Observable (proof of being lazy)');
+    observer.next('Hello! I am glad to get to know you.');
+    observer.complete();
+  });
+  
+  console.log('Before calling subscribe on Observable');
+  
+  greetingLady$.subscribe({
+    next: console.log,
+    complete: () => console.log('End of conversation with preety lady')
+  });

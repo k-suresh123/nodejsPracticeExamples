@@ -1,0 +1,6 @@
+markJohn waffleiron 80 2
+markJohnson blender 200 1
+markJohnson knife  10 4
+Nikithasaith waffleiron 80 2
+Nikithasaith knife  20 2
+Nikithasaith pot 20 3
